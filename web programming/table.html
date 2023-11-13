@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>TABLE</title>
+        <style>
+            .required{color: crimson;}
+            a{
+                text-decoration: none;
+                color: black;
+            }
+
+            input[type="button"]
+            {
+                background:rgb(162, 202, 235);
+               border-radius: 5%;
+            }
+            input[type="reset"]
+            {
+                background:rgb(162, 202, 235);
+               border-radius: 5%;
+            }
+        </style>
+    <body>
+        <center><h3><u>STUDENT REGISTRATION</u></h3>
+            <br><br>
+        <table border="2" height="300" width="300" bgcolor="lightgrey">
+            <tr>
+                <td>First Name<span class="required">*</span></td>
+                <td><input type="text" name="firstname" ></td>
+            </tr>
+            <tr>
+                <td>Last Name<span class="required">*</span></td>
+                <td><input type="text" name="lastname"></td>
+            </tr>
+            <tr>
+                <td>Address<span class="required">*</span></td>
+                <td><textarea rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td>Date of Birth<span class="required">*</span></td>
+                <td><input type="date" name="date of birth "></td>
+            </tr>
+            <tr>
+                <td>Email<span class="required">*</span></td>
+                <td><input type="email" name="email" ></td>
+            </tr>
+            <tr>
+                <td>Phone Number<span class="required">*</span></td>
+                <td><input type="text" name="mobilenumber"> </td>
+            </tr>
+            <tr>
+                <td>Password<span class="required">*</span></td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><center><input type="button" value="sign in">&nbsp;&nbsp;<input type="reset" value="Reset"></center></td>
+            </tr>
+            <tr>
+                <td colspan="2"><center><a href="name.html">Go to Homepage</a></center></td>
+            </tr>
+
+        </table>
+    </center>
+    <br>
+    <marquee>WARNING: Recheck the entered details before submit</marquee>
+    </body>
+    </head>
+</html>

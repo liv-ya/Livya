@@ -1,0 +1,16 @@
+body{
+    background-color: antiquewhite;
+}
+
+h2{
+    color: darkcyan;
+}
+
+table{
+    border-color: brown;
+    border-width: 5;
+}
+
+tr{
+    color:blueviolet;
+}
